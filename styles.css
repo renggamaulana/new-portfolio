@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    font-family : 'Nunito', sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color:rgba(0,0,0,0.5) ;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+nav ul li a:hover{
+    background: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+
+section h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 30px 0px;
+
+}
+
+#home img {
+    width: 350px;
+    height: 600px;
+    display: flex;
+
+}
+
+#home h2 {
+    font-size: 50px;
+    position: relative;
+}
+
+
+#about {
+    min-height: 100vh;
+    background: rgb(224, 224, 224);
+}
+
+#about h2 {
+    color: black;
+}
+
+#about h2:hover{
+    text-shadow: white;
+    cursor: pointer;
+}
+
+#about p{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 1.5rem;
+}
+
+
+.btn {
+    position: relative;
+    height: 40px;
+    top: 100px;
+    right: 300px;
+
+}
+
+.btn:hover {    
+    background: rgb(68, 68, 68);
+    border: white;
+    color: white;
+    
+}
